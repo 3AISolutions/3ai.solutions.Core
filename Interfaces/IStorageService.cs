@@ -7,6 +7,6 @@
         public Task<string> AddAsync(string relativePath, byte[] data, string contentType, CancellationToken token = default);
         public string GetURI(string remotePath);
         public string GetAccessURL(string remotePath, string ip);
-        public Task<bool> ZipAsync(string remotePaths, CancellationToken token = default);
+        public Task<bool> ZipAsync(string remotePaths, CancellationToken token = default); 
     }
 }
